@@ -1,5 +1,5 @@
 import React from "react";
-import { isProduction } from "../../../common/utils";
+import { isProduction } from "../../../common/utils/utils.ts";
 
 export const ReactHookFormDevelopmentTools = isProduction
 	? (): null => null

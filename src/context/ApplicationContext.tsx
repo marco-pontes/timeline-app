@@ -1,9 +1,9 @@
-import { createContext, useContext, useState, type FunctionComponent, type ReactNode } from "react"
-
+import { createContext, useContext, useState, type FunctionComponent, type ReactNode, useEffect } from "react"
+import timelineItemsJson from "../timelineItems";
+import type { TimelineItem } from "../common/types";
 
 type ApplicationContextType = {
-	test: "light" | "dark";
-	toggleTest: () => void;
+	timelineItems: Array<TimelineItem>;
 };
 
 const ApplicationContext = createContext<ApplicationContextType | undefined>(undefined);
@@ -14,15 +14,14 @@ type ApplicationProviderProps = {
 
 
 export const ApplicationProvider: FunctionComponent<ApplicationProviderProps> = ({ children }) => {
-	const [test, setTest] = useState<"light" | "dark">("dark");
+	const [timelineItems, setTimelineItems] = useState<Array<TimelineItem>>([]);
 
-	const toggleTest = (): void => {
-		setTest((previousTest) => (previousTest === "light" ? "dark" : "light"));
-	};
+	useEffect(() => {
+		setTimelineItems(timelineItemsJson)
+	}, [])
 
 	const contextValue = {
-		test,
-		toggleTest,
+		timelineItems,
 	};
 
 	return <ApplicationContext.Provider value={contextValue}>{children}</ApplicationContext.Provider>;

@@ -1,8 +1,5 @@
 {
 	"home": {
-		"greeting": "Hello, world!"
-	},
-	"about": {
-		"greeting": "Hello, world!"
+		"greeting": "Timeline!"
 	}
 }

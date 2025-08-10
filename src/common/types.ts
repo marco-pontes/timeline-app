@@ -7,3 +7,10 @@ type IconProps = HeroIconSVGProps & {
 	titleId?: string;
 };
 export type Heroicon = React.FC<IconProps>;
+
+export interface TimelineItem {
+	id: number;
+	start: string;
+	end: string;
+	name: string;
+}
