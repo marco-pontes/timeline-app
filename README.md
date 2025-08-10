@@ -1,4 +1,4 @@
-# React Project
+# Timeline Project
 
 ## Table of Contents
 
@@ -14,6 +14,21 @@
 ## Overview
 
 Built with type safety, scalability, and developer experience in mind. A batteries included Vite + React application. This project was started up from a boilerplate template called [Vite React Boilerplate](https://github.com/RicardoValdovinos/vite-react-boilerplate)
+
+### What you like about your implementation.
+I like it because it tries to be as modern as possible. It uses typescript and has all kinds of tools to test. All that while following ESlint rules and trying to be as clean as possible, moving business logic to a custom hook.
+
+### What you would change if you were going to do it again.
+Try to clean up the timelineItem component
+
+### How you made your design decisions. For example, if you looked at other timelines for inspiration, please note that.
+I tried to follow the project structure, maintaining components separated and maitaining cohesion. I tried to keep components simple and moved heavy logic to a hook, while maintaining only the presentation in the component.
+I looked for other timelines for inspiration on how to show the items in a better way.
+This project structure is very organized and ready for production.
+
+### How you would test this if you had more time.
+Playwright is already configured, so I would create tests with it. I would finish the TimelineItem test, which I didn't have time to finish.
+
 
 - [pnpm](https://pnpm.io) - A strict and efficient alternative to npm with up to 3x faster performance
 - [TypeScript](https://www.typescriptlang.org) - A typed superset of JavaScript designed with large scale applications in mind
