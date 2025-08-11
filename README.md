@@ -13,8 +13,9 @@
 
 ## Overview
 
-Built with type safety, scalability, and developer experience in mind. A batteries included Vite + React application. This project was started up from a boilerplate template called [Vite React Boilerplate](https://github.com/RicardoValdovinos/vite-react-boilerplate)
+Built with type safety, scalability, and developer experience in mind. A batteries included Vite + React application. This project was started up from a boilerplate template called [Vite React Boilerplate](https://github.com/RicardoValdovinos/vite-react-boilerplate).
 
+See instructions below to install, run and test the project.
 ### What you like about your implementation.
 I like it because it tries to be as modern as possible. Most of the classes are tested and the logic is separated on a custom hook. There are components for layout and title, which can be reused on other pages.
 It uses typescript, tailwind, vite, storybook. It also it has tools to unit test, to create end to end tests and to check code quality. All that while following ESlint rules and trying to be as clean as possible.
