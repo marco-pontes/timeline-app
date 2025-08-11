@@ -25,7 +25,7 @@ Try to clean up the timelineItem component and move the dates logic to the same 
 
 ### How you made your design decisions. For example, if you looked at other timelines for inspiration, please note that.
 I tried to follow the project structure, maintaining components separated and maitaining cohesion. I tried to keep components simple and moved heavy logic to a hook, while maintaining only the presentation in the component.
-I looked for other timelines for inspiration on how to show the items in a clearer way.
+I looked for other timelines for inspiration on how to show the items in a clearer way knowing that the space is very limited and has a visual meaning(the time window a task is running).
 This project structure is very organized and ready for production.
 
 ### How you would test this if you had more time.
