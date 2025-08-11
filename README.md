@@ -17,8 +17,8 @@ Built with type safety, scalability, and developer experience in mind. A batteri
 
 ### What you like about your implementation.
 I like it because it tries to be as modern as possible. Most of the classes are tested and the logic is separated on a custom hook. There are components for layout and title, which can be reused on other pages.
-It uses typescript and has tools to unit test, to create end to end tests and to check code quality. All that while following ESlint rules and trying to be as clean as possible, using technologies like tailwind.
-
+It uses typescript, tailwind and other tools that are nice to have. Also it has tools to unit test, to create end to end tests and to check code quality. All that while following ESlint rules and trying to be as clean as possible.
+The project structure is also very scalable, with several folders ready to organize code in a very modern architecture.
 ### What you would change if you were going to do it again.
 Try to clean up the timelineItem component and move the dates logic to the same hook used on the timeline. 
 
